@@ -1,0 +1,23 @@
+{
+  "name": "gh-workflow-lint",
+  "version": "1.0.0",
+  "description": "Lint GitHub Actions workflow files for common mistakes and best practices. Zero dependencies.",
+  "main": "src/index.js",
+  "bin": {
+    "gh-workflow-lint": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/index.test.js",
+    "lint": "node src/cli.js"
+  },
+  "keywords": ["github-actions", "ci", "lint", "workflow", "yaml", "devops"],
+  "author": "sulthonzh",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sulthonzh/gh-workflow-lint"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
